@@ -1,0 +1,60 @@
+.video-container {
+  position: relative;
+  padding-bottom: 49%; /* 16:9 比例 */
+  height: 0;
+  overflow: hidden;
+  background-color: #121212;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.tiPs > a {
+  text-decoration: none;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+  nav.navbar {
+    background-color: #212121;
+    color: #e0e0e0;
+  }
+
+  div.alert {
+    background-color: #303030;
+    color: #e0e0e0;
+  }
+
+  button.btn {
+    background-color: #3f51b5;
+    color: #e0e0e0;
+  }
+
+  input.form-control {
+    background-color: #303030 !important;
+    color: #e0e0e0 !important;
+  }
+
+  select.form-select {
+    background-color: #303030;
+    color: #e0e0e0;
+  }
+  footer.bg-light {
+    background-color: #303030 !important;
+  }
+  footer.text-muted {
+    color: #e0e0e0 !important;
+  }
+  .tiPs > a {
+    color: white;
+  }
+  .msr {
+    color: black;
+  }
+}
+.mn3 {
+  z-index: 999999;
+}
