@@ -16,7 +16,7 @@ document.getElementById("parseButton").addEventListener("click", function () {
         iframeSrc = "https://www.8090g.cn/?url=" + videoUrl;
         break;
       case "route4":
-        iframeSrc = "http://www.jzmhtt.com/zdy/vip/?url=" + videoUrl;
+        iframeSrc = "https://www.jzmhtt.com/zdy/vip/?url=" + videoUrl;
         break;
       case "route5":
         iframeSrc = "https://www.yemu.xyz/?url=" + videoUrl;
