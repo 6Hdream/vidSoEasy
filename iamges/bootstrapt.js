@@ -17,7 +17,7 @@ document.getElementById("parseButton").addEventListener("click", function () {
         iframeSrc = "https://www.8090g.cn/?url=" + videoUrl;
         break;
       case "route4":
-        iframeSrc = "http://www.jzmhtt.com/zdy/vip/?url=" + videoUrl;
+        iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
         break;
       case "route5":
         iframeSrc = "https://www.yemu.xyz/?url=" + videoUrl;
@@ -35,9 +35,6 @@ document.getElementById("parseButton").addEventListener("click", function () {
         iframeSrc = " https://www.ckplayer.vip/jiexi/?url=" + videoUrl;
         break;
       case "route10":
-        iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
-        break;
-      case "route11":
         iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
         break;
     }
