@@ -11,31 +11,31 @@ document.getElementById("parseButton").addEventListener("click", function () {
         iframeSrc = "https://jx.xmflv.cc/?url=" + videoUrl;
         break;
       case "route2":
-        iframeSrc = "https://jx.xmflv.com/?url=" + videoUrl;
+        iframeSrc = "https://z1.m1907.top/?jx=" + videoUrl;
         break;
       case "route3":
-        iframeSrc = "https://www.8090g.cn/?url=" + videoUrl;
+        iframeSrc = "https://jx.77flv.cc/?url=" + videoUrl;
         break;
       case "route4":
-        iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
-        break;
-      case "route5":
-        iframeSrc = "https://www.yemu.xyz/?url=" + videoUrl;
-        break;
-      case "route6":
-        iframeSrc = "https://jx.m3u8.tv/jiexi/?url=" + videoUrl;
-        break;
-      case "route7":
-        iframeSrc = " https://www.playm3u8.cn/jiexi.php?url=" + videoUrl;
-        break;
-      case "route8":
         iframeSrc = "https://jx.xymp4.cc/?url=" + videoUrl;
         break;
+      case "route5":
+        iframeSrc = "https://www.8090g.cn/?url=" + videoUrl;
+        break;
+      case "route6":
+        iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
+        break;
+      case "route7":
+        iframeSrc = "https://www.yemu.xyz/?url=" + videoUrl;
+        break;
+      case "route8":
+        iframeSrc = "https://jx.m3u8.tv/jiexi/?url=" + videoUrl;
+        break;
       case "route9":
-        iframeSrc = " https://www.ckplayer.vip/jiexi/?url=" + videoUrl;
+        iframeSrc = "https://www.playm3u8.cn/jiexi.php?url=" + videoUrl;
         break;
       case "route10":
-        iframeSrc = "https://www.pangujiexi.com/jiexi/?url=" + videoUrl;
+        iframeSrc = "https://www.ckplayer.vip/jiexi/?url=" + videoUrl;
         break;
     }
     document.getElementById("videoPlayer").src = iframeSrc;
