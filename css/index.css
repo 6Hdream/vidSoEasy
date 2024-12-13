@@ -58,3 +58,6 @@ body.dark-mode {
 .mn3 {
   z-index: 999999;
 }
+.co-bt {
+  color: var(--bs-nav-link-color) !important;
+}
