@@ -242,7 +242,7 @@
       document.addEventListener("contextmenu", function (e) {
         e.preventDefault();
         if (e.button === 2) {
-          window.location.href = "about:blank";
+          document.body.innerHTML = "检测到非法调试,请关闭后刷新重试!";
         }
       });
 
@@ -263,5 +263,5 @@
       handTip(mobileMedia);
     </script>
   </body>
-  <script src="iamges/bootstrapt.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
 </html>
